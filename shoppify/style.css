@@ -1,0 +1,14 @@
+body::before{
+ height: 60px;
+ content: '';
+ display: block;
+}
+
+ #image:active{
+  opacity: 0.5;
+ }
+@media (max-width: 700px) {
+  #image{
+   display: none;
+  }
+}
